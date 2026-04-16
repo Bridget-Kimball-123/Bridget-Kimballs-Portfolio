@@ -368,6 +368,15 @@ section h4 {
   object-position: center;
 }
 
+.quickfit-logo {
+  width: 118px;
+  height: 118px;
+}
+
+.project-card:has(.quickfit-logo) .project-card-image {
+  min-height: 200px;
+}
+
 .learning-whiz-logo {
   height: 180px !important;
 }
@@ -382,6 +391,13 @@ section h4 {
   color: var(--light-text);
   margin-bottom: 1rem;
   font-size: 0.95rem;
+}
+
+.project-card-timeline {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .project-card-tags {
